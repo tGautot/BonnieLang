@@ -1,6 +1,8 @@
 0,0,0,0,0,0
 0,AddToStack,PopStack,PrintStr,PrintInt,0
 0,Add,Sub,Mul,Div,0
+0,JumpTo,JumpFrw,0,0,0
+0,IfZeroJumpTo,IfZeroJumpFrw,IfZogJumpTo,IfZogJumpFrw,0
 0,0,0,0,0
 
 1,1

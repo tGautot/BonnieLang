@@ -1,11 +1,16 @@
 #!/usr/bin/python3
 
+UP = "w"
+DOWN = "s"
+LEFT = "a"
+RIGHT = "d"
+ACTIVATE = "#"
+
 grid = []
 pos = [0,0]
 stack = []
 hand = 0
-parameter = 0
-
+pc = 0 # Program Counter (points to the char)
 
 
 def doAdd():
@@ -59,57 +64,103 @@ def setParameter(val):
     global parameter
     parameter = val
 
+def jumpTo():
+    global pc
+    pc = hand
+
+def jumpFrw():
+    global pc
+    pc += hand
+
+
+def ifZeroJumpTo():
+    if len(stack) == 0:
+        raise("Cannot use If when stack is empty")
+    if stack[-1] == 0:
+        global pc
+        pc = hand
+
+def ifZeroJumpFrw():
+    if len(stack) == 0:
+        raise("Cannot use If when stack is empty")
+    if stack[-1] == 0:
+        global pc
+        pc += hand
+
+def ifZogJumpTo():
+    if len(stack) == 0:
+        raise("Cannot use If when stack is empty")
+    if stack[-1] >= 0:
+        global pc
+        pc = hand
+
+def ifZogJumpFrw():
+    if len(stack) == 0:
+        raise("Cannot use If when stack is empty")
+    if stack[-1] >= 0:
+        global pc
+        pc += hand
+
 
 tileToAction = {
     # Deprecated;"GenNumber": lambda : setInHand(parameter),
     "AddToStack": lambda : stack.append(hand),
-    "PopFromStack": lambda : setInHand(stack.pop()), # TODO put in own function to check stack size b4 pop
+    "PopStack": lambda : setInHand(stack.pop()), # TODO put in own function to check stack size b4 pop
     "PrintStr": lambda : print(strFromStack()),
     "PrintInt": lambda : print(stack.pop()), # TODO put in own function to check stack size b4 pop
     "Add": doAdd,
     "Sub": doSub,
     "Mul": doMult,
     "Div": doDiv,
-    "Mod": doMod
-
+    "Mod": doMod,
+    "JumpTo":jumpTo,
+    "JumpFrw":jumpFrw,
+    "IfZeroJumpTo": ifZeroJumpTo,
+    "IfZeroJumpFrw": ifZeroJumpFrw,
+    "IfZogJumpTo": ifZogJumpTo,
+    "IfZogJumpFrw": ifZogJumpFrw,
+    
 }
+
 
 
 def executeTile():
     tile = grid[pos[0]][pos[1]]
     tileToAction[tile]()
 
-
-    
 def doScript(script):
-    global pos, parameter
-    c = 0
-    while c < len(script):
-        if script[c] == "w":
-            parameter = 0
+    global pos, pc
+    pc = 0
+    while pc < len(script):
+        if script[pc] == UP:
             pos[0]-=1
-        if script[c] == "a":
-            parameter = 0
+        elif script[pc] == LEFT:
             pos[1]-=1
-        if script[c] == "s":
-            parameter = 0
+        elif script[pc] == DOWN:
             pos[0]+=1
-        if script[c] == "d":
-            parameter = 0
+        elif script[pc] == RIGHT:
             pos[1]+=1
         # TODO check if pos is still valid
 
-        if script[c] == "#":
+        elif script[pc] == ACTIVATE:
             executeTile()
-        
-        if script[c].isdigit():
+
+        elif script[pc].isdigit() or script[pc] == "-":
             numStr = ""
-            while script[c].isdigit():
-                numStr += script[c]
-                c+=1
-            setInHand(int(numStr))
-            c-=1
-        c+=1
+            if script[pc] == "-":
+                numStr = "-"
+                pc+=1 
+            while script[pc].isdigit():
+                numStr += script[pc]
+                pc+=1
+            numVal = 0
+            try:
+                numVal = int(numStr)
+            except:
+                raise("Trying to create value but id invalid: " + numStr)
+            setInHand(numVal)
+            pc-=1
+        pc+=1
 
 
 
