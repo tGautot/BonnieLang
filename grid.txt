@@ -1,0 +1,6 @@
+0,0,0,0,0,0
+0,GenNumber,AddToStack,PopStack,PrintStr,PrintInt,0
+0,Add,Sub,Mult,Div,Mod,0
+0,0,0,0,0
+
+1,1
