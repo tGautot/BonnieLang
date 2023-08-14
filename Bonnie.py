@@ -7,15 +7,41 @@ hand = 0
 parameter = 0
 
 
-def executeTile():
-    tile = grid[pos[0]][pos[1]]
-    if tile == "GenNumber":
-        setInHand(parameter)
-    elif tile == "AddToStack":
-        global stack
-        stack.append(hand)
-    elif tile == "PrintStr":
-        print(strFromStack())
+
+def doAdd():
+    global stack
+    if len(stack) < 2:
+        raise("Even though bonnie is really cute, she still needs at least 2 numbers to do an addition")
+    a,b  = stack.pop(), stack.pop()
+    stack.append(a+b)
+
+def doSub():
+    global stack
+    if len(stack) < 2:
+        raise("Even though bonnie is really cute, she still needs at least 2 numbers to do a substraction")
+    a,b  = stack.pop(), stack.pop()
+    stack.append(a-b)
+
+def doMult():
+    global stack
+    if len(stack) < 2:
+        raise("Even though bonnie is really cute, she still needs at least 2 numbers to do a multiplication")
+    a,b  = stack.pop(), stack.pop()
+    stack.append(a*b)
+
+def doDiv():
+    global stack
+    if len(stack) < 2:
+        raise("Even though bonnie is really cute, she still needs at least 2 numbers to do a division")
+    a,b  = stack.pop(), stack.pop()
+    stack.append(a//b)
+
+def doMod():
+    global stack
+    if len(stack) < 2:
+        raise("Even though bonnie is really cute, she still needs at least 2 numbers to do a modulus")
+    a,b  = stack.pop(), stack.pop()
+    stack.append(a%b)
 
 def strFromStack():
     out = ""
@@ -32,6 +58,28 @@ def setInHand(val):
 def setParameter(val):
     global parameter
     parameter = val
+
+
+tileToAction = {
+    # Deprecated;"GenNumber": lambda : setInHand(parameter),
+    "AddToStack": lambda : stack.append(hand),
+    "PopFromStack": lambda : setInHand(stack.pop()), # TODO put in own function to check stack size b4 pop
+    "PrintStr": lambda : print(strFromStack()),
+    "PrintInt": lambda : print(stack.pop()), # TODO put in own function to check stack size b4 pop
+    "Add": doAdd,
+    "Sub": doSub,
+    "Mul": doMult,
+    "Div": doDiv,
+    "Mod": doMod
+
+}
+
+
+def executeTile():
+    tile = grid[pos[0]][pos[1]]
+    tileToAction[tile]()
+
+
     
 def doScript(script):
     global pos, parameter
@@ -59,7 +107,7 @@ def doScript(script):
             while script[c].isdigit():
                 numStr += script[c]
                 c+=1
-            setParameter(int(numStr))
+            setInHand(int(numStr))
             c-=1
         c+=1
 
