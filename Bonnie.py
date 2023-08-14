@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import sys
 
 UP = "w"
 DOWN = "s"
@@ -12,6 +13,8 @@ stack = []
 hand = 0
 pc = 0 # Program Counter (points to the char)
 
+def posToString(x,y):
+    return str(x)+"-"+str(y)
 
 def doAdd():
     global stack
@@ -64,43 +67,66 @@ def setParameter(val):
     global parameter
     parameter = val
 
+
+#########################################
+#
+# Jump Functions
+#   They all have a -1 to counteract the pc increment
+#
+#########################################
+
 def jumpTo():
     global pc
-    pc = hand
-
+    pc = hand-1
+    
 def jumpFrw():
     global pc
-    pc += hand
-
+    pc += hand-1
 
 def ifZeroJumpTo():
     if len(stack) == 0:
         raise("Cannot use If when stack is empty")
     if stack[-1] == 0:
         global pc
-        pc = hand
+        pc = hand-1
 
 def ifZeroJumpFrw():
     if len(stack) == 0:
         raise("Cannot use If when stack is empty")
     if stack[-1] == 0:
         global pc
-        pc += hand
+        pc += hand-1
 
 def ifZogJumpTo():
     if len(stack) == 0:
         raise("Cannot use If when stack is empty")
     if stack[-1] >= 0:
         global pc
-        pc = hand
+        pc = hand-1
 
 def ifZogJumpFrw():
     if len(stack) == 0:
         raise("Cannot use If when stack is empty")
     if stack[-1] >= 0:
         global pc
-        pc += hand
+        pc += hand-1
 
+def readChar():
+    c = sys.stdin.read(1)
+    global stack
+    stack.append(ord(c))
+
+storage = {}
+
+def doStore():
+    posStr = posToString(pos[0],pos[1])
+    global hand, storage
+    if hand == 0:
+        hand = storage[posStr]
+    else:
+        if len(stack) == 0:
+            raise("Trying to store number but nothing on stack")
+        storage[posStr] = stack[-1]
 
 tileToAction = {
     # Deprecated;"GenNumber": lambda : setInHand(parameter),
@@ -108,6 +134,7 @@ tileToAction = {
     "PopStack": lambda : setInHand(stack.pop()), # TODO put in own function to check stack size b4 pop
     "PrintStr": lambda : print(strFromStack()),
     "PrintInt": lambda : print(stack.pop()), # TODO put in own function to check stack size b4 pop
+    "PrintChr": lambda : print(chr(stack.pop())), # TODO ^
     "Add": doAdd,
     "Sub": doSub,
     "Mul": doMult,
@@ -119,7 +146,8 @@ tileToAction = {
     "IfZeroJumpFrw": ifZeroJumpFrw,
     "IfZogJumpTo": ifZogJumpTo,
     "IfZogJumpFrw": ifZogJumpFrw,
-    
+    "ReadChar": readChar,
+    "Store": doStore
 }
 
 
@@ -167,11 +195,18 @@ def doScript(script):
 print("READING GRID -------------------------------------")
 
 gridFile = open("grid.txt", "r")
+i,j = 0,0
 while True:
     l = gridFile.readline()
     if l == "\n":
         break
     grid.append(l.split(","))
+    j=0
+    for elem in grid[-1]:
+        if elem == "Store":
+            storage[posToString(i,j)] = 0
+        j+=1
+    i+=1
 
 l = gridFile.readline()
 startPosStr = l.split(",")
@@ -180,11 +215,11 @@ pos = [int(startPosStr[0]), int(startPosStr[1])]
 
 print("INTERPRETING SCRIPT ------------------------------")
 
-import sys
 scriptFile = open(sys.argv[1], "r")
 script = ''.join(scriptFile.readlines())
 doScript(script)
-
+print("Stack at the end of script: ", stack)
+print("And storages: ", storage)
 
 
 
