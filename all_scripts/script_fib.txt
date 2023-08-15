@@ -1,5 +1,1 @@
-11#1#1#ssddd1#d1#aww##aaa-2#s#s
-RIGHT NOW IM ON "JUMP TO" WITH THE LAST TWO VALS STORED AND NUM TO DO LEFT ON STACK
-sd1000#wdd0#aaaww#ssdddd0#aaaaww#ssddd1#aaaw#sdddd1#
-NOW I HAVE ADDED THE LAST TWO NUMBER (SUM ON STACK) AND STORED WHAT NEEDED
-wwa#aaa-1#s#s31#
+11#1#1#ssddd1#d1#aww##aaa-2#s#ssd1000#wdd0#aaaww#ssdddd0#aaaaww#ssddd1#aaaw#sdddd1#wwa#aaa-1#s#s31#

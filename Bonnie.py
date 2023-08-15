@@ -121,6 +121,8 @@ storage = {}
 def doStore():
     posStr = posToString(pos[0],pos[1])
     global hand, storage
+    #print("[STORE]: Trying to " + 
+    #      ("get" if hand == 0 else "set") + " at pos " + posStr + " currval: ", storage[posStr] )
     if hand == 0:
         hand = storage[posStr]
     else:
@@ -147,7 +149,8 @@ tileToAction = {
     "IfZogJumpTo": ifZogJumpTo,
     "IfZogJumpFrw": ifZogJumpFrw,
     "ReadChar": readChar,
-    "Store": doStore
+    "Store": doStore,
+    "None": lambda : None
 }
 
 
@@ -160,6 +163,7 @@ def doScript(script):
     global pos, pc
     pc = 0
     while pc < len(script):
+        #print("Doing " + script[pc] + " when on " + grid[pos[0]][pos[1]])
         if script[pc] == UP:
             pos[0]-=1
         elif script[pc] == LEFT:
@@ -220,6 +224,8 @@ script = ''.join(scriptFile.readlines())
 doScript(script)
 print("Stack at the end of script: ", stack)
 print("And storages: ", storage)
+print("Finished at pos ", pos)
+print("Got in hand ", hand)
 
 
 
