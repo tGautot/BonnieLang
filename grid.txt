@@ -1,13 +1,13 @@
-0,AddToStack,0,0,0,0,0
-0,None,0,0,0,0,0
-0,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,0
-0,Add,Add,Add,Add,Add,0
-0,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,0
-0,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,0
-0,Store,Store,Store,Store,Store,0
-0,PopStack,PopStack,PopStack,PopStack,PopStack,0
-0,None,JumpFrw,JumpFrw,JumpFrw,JumpFrw,0
-0,0,0,0,0,0,0
+0,AddToStack,0,0,0,0,0,0,0,0,0,0
+0,None,0,0,0,0,0,0,0,0,0,0
+0,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,0
+0,Add,Add,Add,Add,Add,Add,Add,Add,Add,Add,0
+0,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,0
+0,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,0
+0,Store,Store,Store,Store,Store,Store,Store,Store,Store,Store,0
+0,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,0
+0,None,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,0
+0,0,0,0,0,0,0,0,0,0,0,0
 
 1,1
 
