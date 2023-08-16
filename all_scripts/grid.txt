@@ -1,8 +1,8 @@
-0,0,0,0,0,0
-0,AddToStack,PopStack,PrintStr,PrintInt,PrintChr,0
+0,0,0,0,0,0,0
+0,AddToStack,PopStack,JumpTo,JumpFrw,None,0
+0,IfZeroJumpTo,IfZeroJumpFrw,IfZogJumpTo,IfZogJumpFrw,None,0
 0,Add,Sub,Mul,Div,Mod,0
-0,JumpTo,JumpFrw,ReadChar,Store,Store,0
-0,IfZeroJumpTo,IfZeroJumpFrw,IfZogJumpTo,IfZogJumpFrw,0,0
-0,0,0,0,0
+0,PrintStr,PrintInt,PrintChr,ReadChar,Store,0
+0,0,0,0,0,0,0
 
 1,1

@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <script src="https://unpkg.com/konva@9/konva.min.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <textarea id="grid-input">0</textarea>
+        <button onclick="render()">Render</button>
+        <div>
+            <button onclick="extend('left')">Extend Left</button>
+            <button onclick="extend('up')">Extend Up</button>
+            <button onclick="extend('right')">Extend Right</button>
+            <button onclick="extend('down')">Extend Down</button>
+            <button onclick="trimBorders()">Trim Borders</button>
+        </div>
+
+        <!-- A2S PS JT JF None -->
+        <div>
+            <input type="radio" id="iA2S" name="rb_grid_square" value="AddToStack">
+            <label for="iA2S" class="label-sqr" style="background-color:green">A2S</label>
+            <input type="radio" id="iPS" name="rb_grid_square" value="PopStack">
+            <label for="iPS" class="label-sqr" style="background-color:red">PS</label>
+            <input type="radio" id="iJT" name="rb_grid_square" value="JumpTo">
+            <label for="iJT" class="label-sqr" style="background-color:blue">JT</label> 
+            <input type="radio" id="iJF" name="rb_grid_square" value="JumpFrw">
+            <label for="iJF" class="label-sqr" style="background-color:blue">JF</label>  
+            <input type="radio" id="iEmpty" name="rb_grid_square" value="0">
+            <label for="iEmpty" class="label-sqr" style="background-color:white">.</label> 
+        </div>
+
+        <!-- ZJT ZJF ZGJT ZGJF -->
+        <div>
+            <input type="radio" id="iZJT" name="rb_grid_square" value="IfZeroJumpTo">
+            <label for="iZJT" class="label-sqr" style="background-color:gold">ZJT</label>
+            <input type="radio" id="iZJF" name="rb_grid_square" value="IfZeroJumpFrw">
+            <label for="iZJF" class="label-sqr" style="background-color:gold">ZJF</label>
+            <input type="radio" id="iZGJT" name="rb_grid_square" value="IfZogJumpTo">
+            <label for="iZGJT" class="label-sqr" style="background-color:gold">ZGJT</label> 
+            <input type="radio" id="iZGJF" name="rb_grid_square" value="IfZogJumpFrw">
+            <label for="iZGJF" class="label-sqr" style="background-color:gold">ZGJF</label> 
+            <input type="radio" id="iNone" name="rb_grid_square" value="None">
+            <label for="iNone" class="label-sqr" style="background-color:grey; color:grey;">.</label> 
+        </div>
+
+        <!-- ADd Sub Mul Div Mod -->
+        <div>
+            <input type="radio" id="iAdd" name="rb_grid_square" value="Add">
+            <label for="iAdd" class="label-sqr" style="background-color:brown">+</label>
+            <input type="radio" id="iSub" name="rb_grid_square" value="Sub">
+            <label for="iSub" class="label-sqr" style="background-color:brown">-</label>
+            <input type="radio" id="iMul" name="rb_grid_square" value="Mul">
+            <label for="iMul" class="label-sqr" style="background-color:brown">x</label> 
+            <input type="radio" id="iDiv" name="rb_grid_square" value="Div">
+            <label for="iDiv" class="label-sqr" style="background-color:brown">/</label> 
+            <input type="radio" id="iMod" name="rb_grid_square" value="Mod">
+            <label for="iMod" class="label-sqr" style="background-color:brown">%</label> 
+        </div>
+
+        <!-- Print(*) Read Store -->
+        <div>
+            <input type="radio" id="iPrntS" name="rb_grid_square" value="PrintStr">
+            <label for="iPrntS" class="label-sqr" style="background-color:purple">PrntS</label>
+            <input type="radio" id="iPrntI" name="rb_grid_square" value="PrintInt">
+            <label for="iPrntI" class="label-sqr" style="background-color:purple">PrntI</label>
+            <input type="radio" id="iPrntC" name="rb_grid_square" value="PrintChr">
+            <label for="iPrntC" class="label-sqr" style="background-color:purple">PrntC</label> 
+            <input type="radio" id="iRead" name="rb_grid_square" value="ReadChar">
+            <label for="iRead" class="label-sqr" style="background-color:salmon">Read</label> 
+            <input type="radio" id="iStore" name="rb_grid_square" value="Store">
+            <label for="iStore" class="label-sqr" style="background-color:rebeccapurple">Store</label> 
+        </div>
+        
+        <div style="margin-top:15px;" id="container"></div> <!--Contains konva-->
+        
+    </body>
+    <script src="main.js"></script>
+</html>
