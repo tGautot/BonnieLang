@@ -113,8 +113,8 @@ def ifZogJumpFrw():
 
 def readChar():
     c = sys.stdin.read(1)
-    global stack
-    stack.append(ord(c))
+    global hand
+    hand = (0 if c == "" else ord(c))
 
 storage = {}
 
@@ -124,10 +124,12 @@ def doStore():
     #print("[STORE]: Trying to " + 
     #      ("get" if hand == 0 else "set") + " at pos " + posStr + " currval: ", storage[posStr] )
     if hand == 0:
+        print("Getting from store " + posStr)
         hand = storage[posStr]
     else:
         if len(stack) == 0:
             raise("Trying to store number but nothing on stack")
+        
         storage[posStr] = stack[-1]
 
 tileToAction = {
@@ -163,7 +165,7 @@ def doScript(script):
     global pos, pc
     pc = 0
     while pc < len(script):
-        #print("Doing " + script[pc] + " when on " + grid[pos[0]][pos[1]])
+        print("Doing " + script[pc] + " when on " + grid[pos[0]][pos[1]], pos, stack)
         if script[pc] == UP:
             pos[0]-=1
         elif script[pc] == LEFT:
@@ -192,9 +194,23 @@ def doScript(script):
                 raise("Trying to create value but id invalid: " + numStr)
             setInHand(numVal)
             pc-=1
+        
+        if pos[0] < 0 or pos[0] >= len(grid) or pos[1] < 0 or pos[1] >= len(grid[pos[0]]):
+            raise("Bonnie has left our world")
+        if grid[pos[0]][pos[1]] == '0':
+            raise("Bonnie has fallen to the void") 
         pc+=1
 
 
+
+def printStatus(_=0, __=0):
+    print("Stack: ", stack)
+    print("Storages: ", storage)
+    print("Pos: ", pos)
+    print("Hand: ", hand)
+
+import signal
+signal.signal(signal.SIGINT, printStatus)
 
 print("READING GRID -------------------------------------")
 
@@ -222,10 +238,7 @@ print("INTERPRETING SCRIPT ------------------------------")
 scriptFile = open(sys.argv[1], "r")
 script = ''.join(scriptFile.readlines())
 doScript(script)
-print("Stack at the end of script: ", stack)
-print("And storages: ", storage)
-print("Finished at pos ", pos)
-print("Got in hand ", hand)
 
+printStatus()
 
 

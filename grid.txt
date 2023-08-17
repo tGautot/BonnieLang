@@ -1,14 +1,31 @@
-0,AddToStack,0,0,0,0,0,0,0,0,0,0
-0,None,0,0,0,0,0,0,0,0,0,0
-0,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,0
-0,Add,Add,Add,Add,Add,Add,Add,Add,Add,Add,0
-0,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,0
-0,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,0
-0,Store,Store,Store,Store,Store,Store,Store,Store,Store,Store,0
-0,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,0
-0,None,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,0
-0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,Add,None,0,0,Add,ReadChar,0,0,0,0,0,0
+0,0,AddToStack,None,0,0,AddToStack,Store,0,0,0,0,0,0
+0,0,PopStack,Store,0,0,PopStack,Store,0,0,0,0,0,0
+0,0,0,IfZeroJumpFrw,0,0,0,IfZeroJumpFrw,0,0,0,0,0,0
+0,JumpTo,None,None,None,None,None,None,None,None,None,None,None,0
+0,None,0,None,0,0,0,0,0,0,0,0,0,0
+0,None,0,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,0
+0,None,0,Add,Add,Add,Add,Add,Add,Add,Add,Add,Add,0
+0,None,0,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,0
+0,None,0,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,0
+0,None,0,Store,Store,Store,Store,Store,Store,Store,Store,Store,Store,0
+0,None,0,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,0
+0,None,0,None,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,0
+0,None,0,0,0,0,0,0,0,0,0,0,0,0
+0,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,0
+0,Add,Add,Add,Add,Add,Add,Add,Add,Add,Add,Add,Add,0
+0,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,AddToStack,0
+0,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,IfZeroJumpFrw,0
+0,Store,Store,Store,Store,Store,Store,Store,Store,Store,Store,Store,Store,0
+0,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,PopStack,0
+0,None,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,JumpFrw,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
-1,1
+5,1
 
-HUB is 1,1
+(Plug in grid tool for visual)
+The 2 strips are mem segment, the lowest one is used to hold the bf script, and the upper one is the number strip bf operates on
+The two little parts are the top are used for (l2r) the main loop and reading input loop .
+The store in the main loop is  program pointer
+The 2 store in the read loop (t2b)  how many chars already read, isReadFinished (0 if no, 1 if yes)

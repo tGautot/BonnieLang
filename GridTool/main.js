@@ -110,7 +110,6 @@ function render(){
             col = l2col[elem];
             if(!col){col = "white";}
             txt = l2s[elem];
-            if(!txt){txt = "";}
             
             // create our shape
             let sqr = new Konva.Rect({
@@ -128,13 +127,11 @@ function render(){
                 x: pixPerSqr*j,
                 y: pixPerSqr*i+(pixPerSqr-fontSz)/2,
                 width: pixPerSqr,
-                fill: "white",
+                fill: txt ? "white" : "black",
                 align: "center",
-                text: txt,
-                fontSize: fontSz,
-                fontStyle: "bold",
-                // Used in event listener
-                name: i + "-" + j
+                text: txt ? txt : i + "-" + j,
+                fontSize: txt ? fontSz : 10,
+                fontStyle: txt ? "bold" : "normal",
             })
 
             function onGridSqrClick(){

@@ -1,0 +1,1006 @@
+Doing C when on Store
+Doing H when on Store
+Doing A when on Store
+Doing R when on Store
+Doing   when on Store
+Doing R when on Store
+Doing E when on Store
+Doing A when on Store
+Doing D when on Store
+Doing 
+ when on Store
+Doing s when on Store
+Doing s when on Store
+Doing s when on IfZeroJumpFrw
+Doing a when on None
+Doing a when on None
+Doing a when on None
+Doing a when on None
+Doing a when on None
+Doing a when on None
+Doing   when on JumpTo
+Doing N when on JumpTo
+Doing O when on JumpTo
+Doing W when on JumpTo
+Doing   when on JumpTo
+Doing A when on JumpTo
+Doing T when on JumpTo
+Doing   when on JumpTo
+Doing H when on JumpTo
+Doing U when on JumpTo
+Doing B when on JumpTo
+Doing 
+ when on JumpTo
+Doing 8 when on JumpTo
+Doing # when on JumpTo
+Doing H when on JumpTo
+Doing A when on JumpTo
+Doing V when on JumpTo
+Doing E when on JumpTo
+Doing   when on JumpTo
+Doing P when on JumpTo
+Doing O when on JumpTo
+Doing S when on JumpTo
+Doing   when on JumpTo
+Doing T when on JumpTo
+Doing H when on JumpTo
+Doing E when on JumpTo
+Doing N when on JumpTo
+Doing   when on JumpTo
+Doing V when on JumpTo
+Doing A when on JumpTo
+Doing L when on JumpTo
+Doing , when on JumpTo
+Doing   when on JumpTo
+Doing M when on JumpTo
+Doing U when on JumpTo
+Doing S when on JumpTo
+Doing T when on JumpTo
+Doing   when on JumpTo
+Doing B when on JumpTo
+Doing E when on JumpTo
+Doing   when on JumpTo
+Doing A when on JumpTo
+Doing T when on JumpTo
+Doing   when on JumpTo
+Doing H when on JumpTo
+Doing U when on JumpTo
+Doing B when on JumpTo
+Doing 
+ when on JumpTo
+Doing s when on JumpTo
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing 
+ when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing 
+ when on JumpFrw
+Doing s when on JumpFrw
+Doing s when on Add
+Doing s when on AddToStack
+Doing 2 when on IfZeroJumpFrw
+Doing # when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing 
+ when on IfZeroJumpFrw
+Doing s when on IfZeroJumpFrw
+Doing s when on Store
+Doing # when on PopStack
+Doing w when on PopStack
+Doing 1 when on Store
+Doing # when on Store
+Doing s when on Store
+Doing # when on PopStack
+Doing d when on PopStack
+Doing s when on PopStack
+Doing a when on JumpFrw
+Doing - when on None
+Doing # when on None
+Doing w when on None
+Doing w when on PopStack
+Doing w when on Store
+Doing w when on IfZeroJumpFrw
+Doing w when on AddToStack
+Doing w when on Add
+Doing w when on JumpFrw
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing 
+ when on JumpTo
+Doing E when on JumpTo
+Doing N when on JumpTo
+Doing D when on JumpTo
+Doing   when on JumpTo
+Doing O when on JumpTo
+Doing F when on JumpTo
+Doing   when on JumpTo
+Doing F when on JumpTo
+Doing U when on JumpTo
+Doing N when on JumpTo
+Doing C when on JumpTo
+Doing 
+ when on JumpTo
+Doing 1 when on JumpTo
+Doing # when on JumpTo
+Doing   when on JumpTo
+Doing A when on JumpTo
+Doing L when on JumpTo
+Doing L when on JumpTo
+Doing   when on JumpTo
+Doing B when on JumpTo
+Doing F when on JumpTo
+Doing   when on JumpTo
+Doing S when on JumpTo
+Doing C when on JumpTo
+Doing R when on JumpTo
+Doing I when on JumpTo
+Doing P when on JumpTo
+Doing T when on JumpTo
+Doing   when on JumpTo
+Doing A when on JumpTo
+Doing S when on JumpTo
+Doing   when on JumpTo
+Doing I when on JumpTo
+Doing N when on JumpTo
+Doing P when on JumpTo
+Doing U when on JumpTo
+Doing T when on JumpTo
+Doing   when on JumpTo
+Doing 
+ when on JumpTo
+Doing d when on JumpTo
+Doing d when on None
+Doing d when on None
+Doing d when on None
+Doing d when on None
+Doing d when on None
+Doing w when on None
+Doing   when on IfZeroJumpFrw
+Doing N when on IfZeroJumpFrw
+Doing O when on IfZeroJumpFrw
+Doing W when on IfZeroJumpFrw
+Doing   when on IfZeroJumpFrw
+Doing O when on IfZeroJumpFrw
+Doing N when on IfZeroJumpFrw
+Doing   when on IfZeroJumpFrw
+Doing G when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing T when on IfZeroJumpFrw
+Doing E when on IfZeroJumpFrw
+Doing 
+ when on IfZeroJumpFrw
+Doing w when on IfZeroJumpFrw
+Doing 0 when on Store
+Doing # when on Store
+Doing w when on Store
+Doing a when on Store
+Doing # when on AddToStack
+Doing - when on AddToStack
+Doing # when on AddToStack
+Doing w when on AddToStack
+Doing # when on Add
+Doing d when on Add
+Doing s when on ReadChar
+Doing s when on Store
+Doing s when on Store
+Doing ( when on IfZeroJumpFrw
+Doing T when on IfZeroJumpFrw
+Doing O when on IfZeroJumpFrw
+Doing   when on IfZeroJumpFrw
+Doing M when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing I when on IfZeroJumpFrw
+Doing N when on IfZeroJumpFrw
+Doing   when on IfZeroJumpFrw
+Doing L when on IfZeroJumpFrw
+Doing O when on IfZeroJumpFrw
+Doing O when on IfZeroJumpFrw
+Doing P when on IfZeroJumpFrw
+Doing ) when on IfZeroJumpFrw
+Doing # when on IfZeroJumpFrw
+Doing 
+ when on IfZeroJumpFrw
+Doing w when on IfZeroJumpFrw
+Doing a when on Store
+Doing # when on PopStack
+Doing d when on PopStack
+Doing w when on Store
+Doing w when on Store
+Doing # when on ReadChar
+Doing   when on ReadChar
+Doing C when on ReadChar
+Doing H when on ReadChar
+Doing A when on ReadChar
+Doing R when on ReadChar
+Doing   when on ReadChar
+Doing R when on ReadChar
+Doing E when on ReadChar
+Doing A when on ReadChar
+Doing D when on ReadChar
+Doing 
+ when on ReadChar
+Doing a when on ReadChar
+Doing s when on Add
+Doing # when on AddToStack
+Doing d when on AddToStack
+Doing 0 when on Store
+Doing # when on Store
+Doing a when on Store
+Doing # when on AddToStack
+Doing   when on AddToStack
+Doing S when on AddToStack
+Doing A when on AddToStack
+Doing V when on AddToStack
+Doing E when on AddToStack
+Doing D when on AddToStack
+Doing   when on AddToStack
+Doing C when on AddToStack
+Doing H when on AddToStack
+Doing A when on AddToStack
+Doing R when on AddToStack
+Doing   when on AddToStack
+Doing A when on AddToStack
+Doing N when on AddToStack
+Doing D when on AddToStack
+Doing   when on AddToStack
+Doing P when on AddToStack
+Doing O when on AddToStack
+Doing S when on AddToStack
+Doing   when on AddToStack
+Doing T when on AddToStack
+Doing O when on AddToStack
+Doing   when on AddToStack
+Doing S when on AddToStack
+Doing A when on AddToStack
+Doing V when on AddToStack
+Doing E when on AddToStack
+Doing   when on AddToStack
+Doing O when on AddToStack
+Doing N when on AddToStack
+Doing   when on AddToStack
+Doing S when on AddToStack
+Doing T when on AddToStack
+Doing A when on AddToStack
+Doing C when on AddToStack
+Doing K when on AddToStack
+Doing , when on AddToStack
+Doing 
+ when on AddToStack
+Doing # when on AddToStack
+Doing 1 when on AddToStack
+Doing # when on AddToStack
+Doing w when on AddToStack
+Doing # when on Add
+Doing s when on Add
+Doing s when on AddToStack
+Doing # when on PopStack
+Doing w when on PopStack
+Doing d when on AddToStack
+Doing 1 when on Store
+Doing # when on Store
+Doing   when on Store
+Doing U when on Store
+Doing P when on Store
+Doing D when on Store
+Doing A when on Store
+Doing T when on Store
+Doing E when on Store
+Doing D when on Store
+Doing   when on Store
+Doing N when on Store
+Doing U when on Store
+Doing M when on Store
+Doing   when on Store
+Doing C when on Store
+Doing H when on Store
+Doing A when on Store
+Doing R when on Store
+Doing   when on Store
+Doing R when on Store
+Doing E when on Store
+Doing A when on Store
+Doing D when on Store
+Doing 
+ when on Store
+Doing s when on Store
+Doing s when on Store
+Doing s when on IfZeroJumpFrw
+Doing a when on None
+Doing a when on None
+Doing a when on None
+Doing a when on None
+Doing a when on None
+Doing a when on None
+Doing   when on JumpTo
+Doing N when on JumpTo
+Doing O when on JumpTo
+Doing W when on JumpTo
+Doing   when on JumpTo
+Doing A when on JumpTo
+Doing T when on JumpTo
+Doing   when on JumpTo
+Doing H when on JumpTo
+Doing U when on JumpTo
+Doing B when on JumpTo
+Doing 
+ when on JumpTo
+Doing 8 when on JumpTo
+Doing # when on JumpTo
+Doing H when on JumpTo
+Doing A when on JumpTo
+Doing V when on JumpTo
+Doing E when on JumpTo
+Doing   when on JumpTo
+Doing P when on JumpTo
+Doing O when on JumpTo
+Doing S when on JumpTo
+Doing   when on JumpTo
+Doing T when on JumpTo
+Doing H when on JumpTo
+Doing E when on JumpTo
+Doing N when on JumpTo
+Doing   when on JumpTo
+Doing V when on JumpTo
+Doing A when on JumpTo
+Doing L when on JumpTo
+Doing , when on JumpTo
+Doing   when on JumpTo
+Doing M when on JumpTo
+Doing U when on JumpTo
+Doing S when on JumpTo
+Doing T when on JumpTo
+Doing   when on JumpTo
+Doing B when on JumpTo
+Doing E when on JumpTo
+Doing   when on JumpTo
+Doing A when on JumpTo
+Doing T when on JumpTo
+Doing   when on JumpTo
+Doing H when on JumpTo
+Doing U when on JumpTo
+Doing B when on JumpTo
+Doing 
+ when on JumpTo
+Doing s when on JumpTo
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing 
+ when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing 
+ when on JumpFrw
+Doing s when on JumpFrw
+Doing s when on Add
+Doing s when on AddToStack
+Doing 2 when on IfZeroJumpFrw
+Doing # when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing 
+ when on IfZeroJumpFrw
+Doing s when on IfZeroJumpFrw
+Doing s when on Store
+Doing # when on PopStack
+Doing w when on PopStack
+Doing 1 when on Store
+Doing # when on Store
+Doing s when on Store
+Doing # when on PopStack
+Doing d when on PopStack
+Doing s when on PopStack
+Doing a when on JumpFrw
+Doing - when on None
+Doing # when on None
+Doing w when on None
+Doing w when on PopStack
+Doing w when on Store
+Doing w when on IfZeroJumpFrw
+Doing w when on AddToStack
+Doing w when on Add
+Doing w when on JumpFrw
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing 
+ when on JumpTo
+Doing E when on JumpTo
+Doing N when on JumpTo
+Doing D when on JumpTo
+Doing   when on JumpTo
+Doing O when on JumpTo
+Doing F when on JumpTo
+Doing   when on JumpTo
+Doing F when on JumpTo
+Doing U when on JumpTo
+Doing N when on JumpTo
+Doing C when on JumpTo
+Doing 
+ when on JumpTo
+Doing 1 when on JumpTo
+Doing # when on JumpTo
+Doing   when on JumpTo
+Doing A when on JumpTo
+Doing L when on JumpTo
+Doing L when on JumpTo
+Doing   when on JumpTo
+Doing B when on JumpTo
+Doing F when on JumpTo
+Doing   when on JumpTo
+Doing S when on JumpTo
+Doing C when on JumpTo
+Doing R when on JumpTo
+Doing I when on JumpTo
+Doing P when on JumpTo
+Doing T when on JumpTo
+Doing   when on JumpTo
+Doing A when on JumpTo
+Doing S when on JumpTo
+Doing   when on JumpTo
+Doing I when on JumpTo
+Doing N when on JumpTo
+Doing P when on JumpTo
+Doing U when on JumpTo
+Doing T when on JumpTo
+Doing   when on JumpTo
+Doing 
+ when on JumpTo
+Doing d when on JumpTo
+Doing d when on None
+Doing d when on None
+Doing d when on None
+Doing d when on None
+Doing d when on None
+Doing w when on None
+Doing   when on IfZeroJumpFrw
+Doing N when on IfZeroJumpFrw
+Doing O when on IfZeroJumpFrw
+Doing W when on IfZeroJumpFrw
+Doing   when on IfZeroJumpFrw
+Doing O when on IfZeroJumpFrw
+Doing N when on IfZeroJumpFrw
+Doing   when on IfZeroJumpFrw
+Doing G when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing T when on IfZeroJumpFrw
+Doing E when on IfZeroJumpFrw
+Doing 
+ when on IfZeroJumpFrw
+Doing w when on IfZeroJumpFrw
+Doing 0 when on Store
+Doing # when on Store
+Doing w when on Store
+Doing a when on Store
+Doing # when on AddToStack
+Doing - when on AddToStack
+Doing # when on AddToStack
+Doing w when on AddToStack
+Doing # when on Add
+Doing d when on Add
+Doing s when on ReadChar
+Doing s when on Store
+Doing s when on Store
+Doing ( when on IfZeroJumpFrw
+Doing T when on IfZeroJumpFrw
+Doing O when on IfZeroJumpFrw
+Doing   when on IfZeroJumpFrw
+Doing M when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing I when on IfZeroJumpFrw
+Doing N when on IfZeroJumpFrw
+Doing   when on IfZeroJumpFrw
+Doing L when on IfZeroJumpFrw
+Doing O when on IfZeroJumpFrw
+Doing O when on IfZeroJumpFrw
+Doing P when on IfZeroJumpFrw
+Doing ) when on IfZeroJumpFrw
+Doing # when on IfZeroJumpFrw
+Doing 
+ when on IfZeroJumpFrw
+Doing w when on IfZeroJumpFrw
+Doing a when on Store
+Doing # when on PopStack
+Doing d when on PopStack
+Doing w when on Store
+Doing w when on Store
+Doing # when on ReadChar
+Doing   when on ReadChar
+Doing C when on ReadChar
+Doing H when on ReadChar
+Doing A when on ReadChar
+Doing R when on ReadChar
+Doing   when on ReadChar
+Doing R when on ReadChar
+Doing E when on ReadChar
+Doing A when on ReadChar
+Doing D when on ReadChar
+Doing 
+ when on ReadChar
+Doing a when on ReadChar
+Doing s when on Add
+Doing # when on AddToStack
+Doing d when on AddToStack
+Doing 0 when on Store
+Doing # when on Store
+Doing a when on Store
+Doing # when on AddToStack
+Doing   when on AddToStack
+Doing S when on AddToStack
+Doing A when on AddToStack
+Doing V when on AddToStack
+Doing E when on AddToStack
+Doing D when on AddToStack
+Doing   when on AddToStack
+Doing C when on AddToStack
+Doing H when on AddToStack
+Doing A when on AddToStack
+Doing R when on AddToStack
+Doing   when on AddToStack
+Doing A when on AddToStack
+Doing N when on AddToStack
+Doing D when on AddToStack
+Doing   when on AddToStack
+Doing P when on AddToStack
+Doing O when on AddToStack
+Doing S when on AddToStack
+Doing   when on AddToStack
+Doing T when on AddToStack
+Doing O when on AddToStack
+Doing   when on AddToStack
+Doing S when on AddToStack
+Doing A when on AddToStack
+Doing V when on AddToStack
+Doing E when on AddToStack
+Doing   when on AddToStack
+Doing O when on AddToStack
+Doing N when on AddToStack
+Doing   when on AddToStack
+Doing S when on AddToStack
+Doing T when on AddToStack
+Doing A when on AddToStack
+Doing C when on AddToStack
+Doing K when on AddToStack
+Doing , when on AddToStack
+Doing 
+ when on AddToStack
+Doing # when on AddToStack
+Doing 1 when on AddToStack
+Doing # when on AddToStack
+Doing w when on AddToStack
+Doing # when on Add
+Doing s when on Add
+Doing s when on AddToStack
+Doing # when on PopStack
+Doing w when on PopStack
+Doing d when on AddToStack
+Doing 1 when on Store
+Doing # when on Store
+Doing   when on Store
+Doing U when on Store
+Doing P when on Store
+Doing D when on Store
+Doing A when on Store
+Doing T when on Store
+Doing E when on Store
+Doing D when on Store
+Doing   when on Store
+Doing N when on Store
+Doing U when on Store
+Doing M when on Store
+Doing   when on Store
+Doing C when on Store
+Doing H when on Store
+Doing A when on Store
+Doing R when on Store
+Doing   when on Store
+Doing R when on Store
+Doing E when on Store
+Doing A when on Store
+Doing D when on Store
+Doing 
+ when on Store
+Doing s when on Store
+Doing s when on Store
+Doing s when on IfZeroJumpFrw
+Doing a when on None
+Doing a when on None
+Doing a when on None
+Doing a when on None
+Doing a when on None
+Doing a when on None
+Doing   when on JumpTo
+Doing N when on JumpTo
+Doing O when on JumpTo
+Doing W when on JumpTo
+Doing   when on JumpTo
+Doing A when on JumpTo
+Doing T when on JumpTo
+Doing   when on JumpTo
+Doing H when on JumpTo
+Doing U when on JumpTo
+Doing B when on JumpTo
+Doing 
+ when on JumpTo
+Doing 8 when on JumpTo
+Doing # when on JumpTo
+Doing H when on JumpTo
+Doing A when on JumpTo
+Doing V when on JumpTo
+Doing E when on JumpTo
+Doing   when on JumpTo
+Doing P when on JumpTo
+Doing O when on JumpTo
+Doing S when on JumpTo
+Doing   when on JumpTo
+Doing T when on JumpTo
+Doing H when on JumpTo
+Doing E when on JumpTo
+Doing N when on JumpTo
+Doing   when on JumpTo
+Doing V when on JumpTo
+Doing A when on JumpTo
+Doing L when on JumpTo
+Doing , when on JumpTo
+Doing   when on JumpTo
+Doing M when on JumpTo
+Doing U when on JumpTo
+Doing S when on JumpTo
+Doing T when on JumpTo
+Doing   when on JumpTo
+Doing B when on JumpTo
+Doing E when on JumpTo
+Doing   when on JumpTo
+Doing A when on JumpTo
+Doing T when on JumpTo
+Doing   when on JumpTo
+Doing H when on JumpTo
+Doing U when on JumpTo
+Doing B when on JumpTo
+Doing 
+ when on JumpTo
+Doing s when on JumpTo
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing s when on None
+Doing 
+ when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing A when on JumpFrw
+Doing 
+ when on JumpFrw
+Doing s when on JumpFrw
+Doing s when on Add
+Doing s when on AddToStack
+Doing 2 when on IfZeroJumpFrw
+Doing # when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing 
+ when on IfZeroJumpFrw
+Doing s when on IfZeroJumpFrw
+Doing s when on Store
+Doing # when on PopStack
+Doing w when on PopStack
+Doing 1 when on Store
+Doing # when on Store
+Doing s when on Store
+Doing # when on PopStack
+Doing d when on PopStack
+Doing s when on PopStack
+Doing a when on JumpFrw
+Doing - when on None
+Doing # when on None
+Doing w when on None
+Doing w when on PopStack
+Doing w when on Store
+Doing w when on IfZeroJumpFrw
+Doing w when on AddToStack
+Doing w when on Add
+Doing w when on JumpFrw
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing w when on None
+Doing 
+ when on JumpTo
+Doing E when on JumpTo
+Doing N when on JumpTo
+Doing D when on JumpTo
+Doing   when on JumpTo
+Doing O when on JumpTo
+Doing F when on JumpTo
+Doing   when on JumpTo
+Doing F when on JumpTo
+Doing U when on JumpTo
+Doing N when on JumpTo
+Doing C when on JumpTo
+Doing 
+ when on JumpTo
+Doing 1 when on JumpTo
+Doing # when on JumpTo
+Doing   when on JumpTo
+Doing A when on JumpTo
+Doing L when on JumpTo
+Doing L when on JumpTo
+Doing   when on JumpTo
+Doing B when on JumpTo
+Doing F when on JumpTo
+Doing   when on JumpTo
+Doing S when on JumpTo
+Doing C when on JumpTo
+Doing R when on JumpTo
+Doing I when on JumpTo
+Doing P when on JumpTo
+Doing T when on JumpTo
+Doing   when on JumpTo
+Doing A when on JumpTo
+Doing S when on JumpTo
+Doing   when on JumpTo
+Doing I when on JumpTo
+Doing N when on JumpTo
+Doing P when on JumpTo
+Doing U when on JumpTo
+Doing T when on JumpTo
+Doing   when on JumpTo
+Doing 
+ when on JumpTo
+Doing d when on JumpTo
+Doing d when on None
+Doing d when on None
+Doing d when on None
+Doing d when on None
+Doing d when on None
+Doing w when on None
+Doing   when on IfZeroJumpFrw
+Doing N when on IfZeroJumpFrw
+Doing O when on IfZeroJumpFrw
+Doing W when on IfZeroJumpFrw
+Doing   when on IfZeroJumpFrw
+Doing O when on IfZeroJumpFrw
+Doing N when on IfZeroJumpFrw
+Doing   when on IfZeroJumpFrw
+Doing G when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing T when on IfZeroJumpFrw
+Doing E when on IfZeroJumpFrw
+Doing 
+ when on IfZeroJumpFrw
+Doing w when on IfZeroJumpFrw
+Doing 0 when on Store
+Doing # when on Store
+Doing w when on Store
+Doing a when on Store
+Doing # when on AddToStack
+Doing - when on AddToStack
+Doing # when on AddToStack
+Doing w when on AddToStack
+Doing # when on Add
+Doing d when on Add
+Doing s when on ReadChar
+Doing s when on Store
+Doing s when on Store
+Doing ( when on IfZeroJumpFrw
+Doing T when on IfZeroJumpFrw
+Doing O when on IfZeroJumpFrw
+Doing   when on IfZeroJumpFrw
+Doing M when on IfZeroJumpFrw
+Doing A when on IfZeroJumpFrw
+Doing I when on IfZeroJumpFrw
+Doing N when on IfZeroJumpFrw
+Doing   when on IfZeroJumpFrw
+Doing L when on IfZeroJumpFrw
+Doing O when on IfZeroJumpFrw
+Doing O when on IfZeroJumpFrw
+Doing P when on IfZeroJumpFrw
+Doing ) when on IfZeroJumpFrw
+Doing # when on IfZeroJumpFrw
+Doing 
+ when on IfZeroJumpFrw
+Doing w when on IfZeroJumpFrw
+Doing a when on Store
+Doing # when on PopStack
+Doing d when on PopStack
+Doing w when on Store
+Doing w when on Store
+Doing # when on ReadChar
+Doing   when on ReadChar
+Doing C when on ReadChar
+Doing H when on ReadChar
+Doing A when on ReadChar
+Doing R when on ReadChar
+Doing   when on ReadChar
+Doing R when on ReadChar
+Doing E when on ReadChar
+Doing A when on ReadChar
+Doing D when on ReadChar
+Doing 
+ when on ReadChar
+Doing a when on ReadChar
+Doing s when on Add
+Doing # when on AddToStack
+Doing d when on AddToStack
+Doing 0 when on Store
+Doing # when on Store
+Doing a when on Store
+Doing # when on AddToStack
+Doing   when on AddToStack
+Doing S when on AddToStack
+Doing A when on AddToStack
+Doing V when on AddToStack
+Doing E when on AddToStack
+Doing D when on AddToStack
+Doing   when on AddToStack
+Doing C when on AddToStack
+Doing H when on AddToStack
+Doing A when on AddToStack
+Doing R when on AddToStack
+Doing   when on AddToStack
+Doing A when on AddToStack
+Doing N when on AddToStack
+Doing D when on AddToStack
+Doing   when on AddToStack
+Doing P when on AddToStack
+Doing O when on AddToStack
+Doing S when on AddToStack
+Doing   when on AddToStack
+Doing T when on AddToStack
+Doing O when on AddToStack
+Doing   when on AddToStack
+Doing S when on AddToStack
+Doing A when on AddToStack
+Doing V when on AddToStack
+Doing E when on AddToStack
+Doing   when on AddToStack
+Doing O when on AddToStack
+Doing N when on AddToStack
+Doing   when on AddToStack
+Doing S when on AddToStack
+Doing T when on AddToStack
+Doing A when on AddToStack
+Doing C when on AddToStack
+Doing K when on AddToStack
+Doing , when on AddToStack
+Doing 
+ when on AddToStack
+Doing # when on AddToStack
+Doing 1 when on AddToStack
+Doing # when on AddToStack
+Doing w when on AddToStack
+Doing # when on Add
+Doing s when on Add
+Doing s when on AddToStack
+Doing # when on PopStack
+Doing w when on PopStack
+Doing d when on AddToStack
+Doing 1 when on Store
+Doing # when on Store
+Doing   when on Store
+Doing U when on Store
+Doing P when on Store
+Doing D when on Store
+Doing A when on Store
+Doing T when on Store
+Doing E when on Store
+Doing D when on Store
+Doing   when on Store
+Doing N when on Store
+Doing U when on Store
+Doing M when on Store
+Doing   when on Store
+Doing C when on Store
+Doing H when on Store
+Doing A when on Store
+Doing R when on Store
+Doing   when on Store
+Doing R when on Store
+Doing E when on Store
+Doing A when on Store
+Doing D when on Store
+Doing 
+ when on Store
+Doing s when on Store
+D^C
+Traceback (most recent call last):
+  File "/home/tom/Documents/projects/BonnieLang/./Bonnie.py", line 229, in <module>
+    doScript(script)
+  File "/home/tom/Documents/projects/BonnieLang/./Bonnie.py", line 166, in doScript
+    print("Doing " + script[pc] + " when on " + grid[pos[0]][pos[1]])
+KeyboardInterrupt
